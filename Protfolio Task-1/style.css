@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #190482;
+  align-items: end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+}
+.nav-home {
+  margin: 30px 40px 10px 0px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-logo {
+  width: 10px;
+  font-size: 2rem;
+  margin: 30px 40% 10px 10%;
+  color: white;
+  padding-left: 5%;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+.introduction {
+  width: 80%;
+  margin: 15% 0px 0px 10%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+}
+img {
+  float: inline-end;
+  width: 30%;
+  padding-right: 10%;
+}
+.first {
+  font-size: 2.3rem;
+  padding-bottom: 10px;
+  color: #190482;
+  font-weight: 800;
+}
+.second {
+  display: flex;
+  padding-bottom: 10px;
+}
+button {
+  margin-top: 3%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #190482;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.download-cv{
+  text-decoration: none;
+  color: white;
+}
+header {
+  padding-bottom: 10%;
+}
+body {
+  background-color: white;
+}
+.contact{
+  color: black;
+}
+.contact:hover{
+  text-decoration: underline;
+  color: blue;
+}
+.about-details {
+  width: 79%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: 0.3s;
+  background-color: white;
+  padding: 5px 40px 20px 40px;
+  margin: 2% 8% 8% 8%;
+}
+
+.about-section h1 {
+  margin-top: 7%;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #190482;
+  font-weight: 1000;
+}
+.about-section p {
+  width: 100;
+  margin: 40px;
+  text-align: left;
+  padding-left: 40%;
+  padding-right: 10%;
+}
+.about-section img {
+  padding: 20px;
+}
+.skill-section h1 {
+  margin-top: 5%;
+  font-weight: 1000;
+  margin-right: 15%;
+  margin-left: 5%;
+  color: #190482;
+  margin-left: 45%;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  overflow: hidden;
+  transition: 0.3s;
+  background: rgb(252, 252, 252);
+  margin-left: 5rem;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin: 3% 8% 8% 8%;
+}
+.skills-article {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 10% 50px 50px;
+  border-bottom: 4px solid transparent;
+}
+.skills-article h2 {
+  color: #190482;
+  font-weight: 800;
+}
+.skills-article img {
+  justify-items: center;
+  width: 30%;
+}
+.education-section h1 {
+  text-align: center;
+  font-weight: 1000;
+  color: #190482;
+  margin-top: 5%;
+}
+.college {
+  width: 80%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  overflow: hidden;
+  transition: 0.3s;
+  background: rgb(252, 252, 252);
+  margin-left: 5rem;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin: 3% 8% 8% 8%;
+}
+.education-section h2 {
+  font-weight: 700;
+  color: #190482;
+}
+.school {
+  width: 80%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  overflow: hidden;
+  transition: 0.3s;
+  margin-left: 5rem;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  margin: 3% 8% 8% 8%;
+}
+
+.college img {
+  padding: 20px;
+}
+.school img {
+  padding: 20px;
+}
+
+.project-section h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 1000;
+  color: #190482;
+}
+.project-name {
+  width: 80%;
+  height: 270px;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  overflow: hidden;
+  transition: 0.3s;
+  background: rgb(252, 252, 252);
+  margin-left: 5rem;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  margin: 3% 8% 8% 8%;
+}
+.project-section h2 {
+  font-weight: 700;
+  color: #190482;
+}
+.project-name img {
+  padding: 20px;
+}
+.project-name p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact-section {
+  text-align: center;
+}
+.contact-section h1 {
+  font-weight: 1000;
+  color: #190482;
+}
+.contact-details {
+  width: 80%;
+  height: 350px;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  overflow: hidden;
+  transition: 0.3s;
+  background: rgb(252, 252, 252);
+  padding-left: 50px;
+  padding-top: 30px;
+  margin: 3% 8% 8% 8%;
+}
+
+.contact-info input{
+  width: 30%;
+  height: 40px;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 1% 8% 1% 10%;
+  display: flex;
+  padding-left: 20px;
+}
+.contact-info img {
+  float: right;
+}
+.contact-message input{
+  height: 80px;
+  
+}
+.submit input{
+  text-align: center;
+  background-color: #190482;
+  color: white;
+  padding-left: 2px;
+  width: 100px;
+  margin-top: 20px;
+}
+footer{
+  background-color: rgb(41, 38, 38);
+  height: 320px;
+  color: white;
+}
+.footer-section{
+  padding: 60px 50px 60px 10%;
+ 
+  
+}
+.footer-contact{
+  padding: 20px;
+  text-align: right;
+}
+.footer-contact ul{
+  margin-top: 5px;
+  list-style-type: none;
+}
+.footer-contact p{
+  font-size: 1.5rem;
+  text-decoration: underline;
+  
+}
+.footer-contact a{
+  color: white;
+}

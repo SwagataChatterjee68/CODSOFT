@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("background.png");
+  background-size: cover;
+}
+.heading {
+  text-align: center;
+  color: white;
+  margin: 20px;
+  font-size: larger;
+}
+.container {
+  margin-left: 35%;
+  text-align: center;
+  width: 390px;
+  border: 2px solid white;
+}
+.calculator {
+  margin: 2px;
+}
+.operator {
+  width: 80px;
+  padding: 25px;
+  margin: 5px;
+  font-weight: 700;
+  font-size: 1rem;
+  height: 75px;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid black;
+  color: crimson;
+}
+.operator:hover {
+  border: 3px solid rgba(255, 166, 0, 0.795);
+  background-color: rgba(255, 166, 0, 0.795);
+}
+.input {
+  margin-top: 10px;
+  width: 370px;
+  height: 40px;
+  font-size: medium;
+  border-radius: 10px;
+}
+.clear {
+  width: 80px;
+  padding: 25px;
+  margin: 5px;
+  font-weight: 700;
+  font-size: medium;
+  height: 75px;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid black;
+  color:rgb(255, 7, 57);
+}
+.clear:hover {
+  border: 3px solid rgba(255, 166, 0, 0.795);
+  background-color: rgba(255, 166, 0, 0.795);
+}
+.remove {
+  width: 80px;
+  padding: 25px;
+  margin: 5px;
+  font-weight: 700;
+  font-size: medium;
+  height: 75px;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid black;
+  color: rgb(255, 7, 57);
+}
+.remove:hover {
+  border: 3px solid rgba(255, 166, 0, 0.795);
+  background-color: rgba(255, 166, 0, 0.795);
+}
+.number {
+  width: 80px;
+  padding: 25px;
+  margin: 5px;
+  font-weight: 700;
+  font-size: medium;
+  height: 75px;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid black;
+  color: crimson;
+}
+.number:hover {
+  border: 3px solid rgba(255, 166, 0, 0.795);
+  background-color: rgba(255, 166, 0, 0.795);
+}
+.dot {
+  width: 80px;
+  padding: 25px;
+  margin: 5px;
+  font-weight: 700;
+  font-size: medium;
+  height: 75px;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid black;
+  color: crimson;
+}
+.dot:hover {
+  border: 3px solid rgba(255, 166, 0, 0.795);
+  background-color: rgba(255, 166, 0, 0.795);
+}
+.answer {
+  width: 80px;
+  padding: 25px;
+  margin: 5px;
+  font-weight: 700;
+  font-size: medium;
+  height: 75px;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid black;
+  color: crimson;
+}
+.answer:hover {
+  border: 3px solid rgba(255, 166, 0, 0.795);
+  background-color: rgba(255, 166, 0, 0.795);
+}

@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman";
+  font-weight: 540;
+}
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+}
+.nav-logo {
+  margin: 30px 40% 10px 6%;
+  padding-bottom: 20px;
+}
+.nav-home {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+body {
+  background-color: whitesmoke;
+}
+.background-img img {
+  width: 95%;
+  height: 750px;
+  background-size: cover;
+  margin-left: 2%;
+}
+.main-section {
+  width: 90%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: 0.3s;
+  background-color: whitesmoke;
+  padding: 5px 40px 20px 40px;
+  margin: 2% 3% 8% 30px;
+}
+.plant-section {
+  height: 20%;
+  color: #1a5319;
+  text-align: left;
+  padding-left: 3%;
+  padding-top: 30px;
+}
+.plant-section h2 {
+  font-weight: 600;
+}
+.plant-category {
+  width: 10%;
+  display: flex;
+}
+.plant-category a {
+  color: black;
+}
+.plant-category img {
+  margin-top: 40px;
+  padding: 30px 50px 20px 70px;
+  width: 155%;
+  height: 200px;
+}
+.plant-title p {
+  display: inline;
+  padding: 100px;
+  font-weight: 550;
+}
+.section h2 {
+  font-weight: 600;
+  margin: 40px 40px 0px 50px;
+  color: #1a5319;
+}
+/*plant-description section*/
+.plant-flower-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.plant-description {
+  height: 320px;
+  width: 20%;
+  padding: 10px 0px 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 20px;
+  background-color: white;
+}
+.plant-description h2,
+i,
+p,
+h4 {
+  text-align: left;
+  margin-top: 20px;
+  font-weight: 550;
+  margin-left: 20px;
+}
+
+.plant-img {
+  height: 180px;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 7px;
+  margin: 15px;
+}
+.plant-bonsai-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.plant-fruit-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.plant-flower-section p {
+  margin-left: 50px;
+}
+.plant-Herb-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer {
+  background-color: rgb(41, 38, 38);
+  height: 400px;
+  color: white;
+  margin-top: 20px;
+}
+.footer-section {
+  padding: 40px 50px 0px 5%;
+}
+.footer-contact p {
+  text-align: right;
+  font-size: 1.5rem;
+}
+.footer-contact ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+.footer-logo {
+  padding: 20px 0px 20px 0px;
+}
+.footer-logo p {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-left: 2px;
+}
